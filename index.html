@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog de Ingeniería Industrial - Unilibre</title>
+    <style>
+        /* Estilos generales */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+        }
+
+        header, footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+
+        /* Configuración de la Tabla */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            table-layout: fixed; /* Fuerza a que las columnas respeten el ancho exacto */
+        }
+
+        td {
+            vertical-align: top;
+            padding: 30px;
+            border: 1px solid #eee; /* Opcional: para que vean los límites de las columnas */
+        }
+
+        /* Clases para las 3 columnas iguales */
+        .columna {
+            width: 33.33%;
+        }
+
+        h2, h3 {
+            color: #333;
+            border-bottom: 2px solid #00bcd4;
+            padding-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+            text-align: justify;
+        }
+
+        .meta-noticia {
+            font-size: 0.8rem;
+            color: #888;
+            font-style: italic;
+        }
+
+        .img-central {
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .lista-noticias {
+            list-style: none;
+            padding: 0;
+        }
+
+        .lista-noticias li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .lista-noticias a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mi Blog de Noticias Colombianas</h1>
+        <nav>Inicio | Colombia | Barranquilla | Bogota | Medellin  | Cali</nav>
+    </header>
+
+    <table border="0">
+        <tr>
+            <td class="columna">
+                <h2>El impacto de la IA</h2>
+                <p>
+                    Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. 
+                    Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, 
+                    cuando un impresor desconocido usó una galería de textos y los mezcló de tal manera 
+                    que logró hacer un libro de textos especimen.
+                </p>
+                <p>
+                    Para los estudiantes de la <strong>Universidad Libre</strong>, entender estas 
+                    tecnologías es vital en la optimización de procesos industriales modernos.
+                </p>
+            </td>
+
+            <td class="columna" style="text-align: center;">
+                <h2>Visualización</h2>
+                <img src="img/uno.jpg" width="100%" alt="IA Industrial" class="img-central">
+                <p class="meta-noticia">Procesamiento de datos en tiempo real.</p>
+            </td>
+
+            <td class="columna">
+                <h2>Noticias Recientes</h2>
+                <p class="meta-noticia">Actualizado: Octubre 2024</p>
+                
+                <ul class="lista-noticias">
+                    <li><a href="#">Revolución en la IA: Nuevos Modelos</a></li>
+                    <li><a href="#">Ciberseguridad en la Industria</a></li>
+                    <li><a href="#">Optimización con algoritmos genéticos</a></li>
+                </ul>
+
+                <h3 style="margin-top: 20px;">Publicidad</h3>
+                <div style="height: 150px; background: #f9f9f9; border: 2px dashed #ccc; display: flex; align-items: center; justify-content: center; color: #999;">
+                    Espacio para Banner
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <footer>
+        <p style="text-align: center;">Universidad Libre - Sede Barranquilla</p>
+        <p style="text-align: center;"><small>Programación Web - Ejercicio de Estructuras Simétricas</small></p>
+    </footer>
+
+</body>
+</html>
